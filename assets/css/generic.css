@@ -30,6 +30,18 @@
 /**
  Floating tools
  */
+ img[src$='#floatleft']
+ {
+    float:left;
+    margin-right: 10px !important;
+ }
+
+ img[src$='#floatright']
+ {
+    float:right;
+    margin-left: 10px !important;
+ }
+
 .left {
     float: left;
 }
